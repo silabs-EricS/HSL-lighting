@@ -45,6 +45,11 @@ There are 3 primary ways to describe a color.
 ![Color System](images/lighting-temperature.png)
 
 ## BT mesh implement
+### HSL control topologic
+![Color System](images/hsl_topo.png)
+The Bluetooth Mesh - SoC Light HSL example is a working example application that you can use as a template for Bluetooth Mesh HSL Light applications.
+
+Currently the Bluetooth Mesh - SoC Switch does not support HSL Client (i.e. cannot set hue or saturation). So first step is rework on switch side.
 ### HSL switch
 1) Create "Bluetooth Mesh - SoC Switch", the HW here we use xG21(BRD4181A), add HSL client model.
 
